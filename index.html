@@ -11,23 +11,29 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="cabezera">
         <a href="index.html" title="Volviendo al inicio">
             <img src="img/Logo.png" alt="Logo">
         </a>
     </header>
-    <main>
-        <div>
-            <textarea name="Ingreso Texto" id="texto" cols="30" rows="10"></textarea>
+    <main class="cuerpo">
+        <div class="texto-area">
+            <textarea name="Ingreso Texto" id="texto-original" cols="30" rows="10"></textarea>
         </div>
-        <div>
-            <picture>
+        <div class="imagen-area">
+            <picture class="pintura">
                 <img src="img/Muñeco.png" alt="Muñeco">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
             </picture>
         </div>
     </main>
     <footer>
-        
+        <p>Solo letras minúsculas y sin acentos</p>
+        <div class="botones-area">
+            <button>Encriptar</button>
+            <button>Desencriptar</button>
+        </div>
     </footer>
     <script src="js/app.js"></script>
 </body>
